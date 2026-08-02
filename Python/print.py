@@ -1,0 +1,3 @@
+# プリントコードのサンプル
+
+print("HelloWorld")
