@@ -77,11 +77,35 @@ import "fmt"
 // 	}
 // }
 
-func main() {
-	result := getBMI(62,1.7)
-	fmt.Println(result)
-}
+// func main() {
+// 	result := getBMI(62,1.7)
+// 	fmt.Println(result)
+// }
 
-func getBMI(weight float32, height float32) float32{
-    return weight / (height * height)
+// func getBMI(weight float32, height float32) float32{
+//     return weight / (height * height)
+// }
+
+// func main(){
+// 	var names [5] string
+// 	names[0] = "gi"
+// 	names[1] = "t"
+// 	names[2] = "h"
+// 	names[3] = "u"
+// 	names[4] = "b"
+
+// 	// names := [5]string{"さ","く","ら","う","ゆ"}
+
+// 	for _, name := range names {
+// 		fmt.Println(name)
+// 	}
+// }
+
+func main() {
+	names := []string{"r", "e", "n", "s", "y", "u"}
+	names = append(names, "!")
+
+	for _, name := range names {
+		fmt.Println(name)
+	}
 }
