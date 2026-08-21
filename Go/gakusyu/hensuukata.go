@@ -22,3 +22,17 @@ func main() {
 	fmt.Println("dの値は", d)
 	fmt.Println("eの値は", e)
 }
+
+//型変換
+import "strconv"
+
+func main() {
+	// 文字列を整数に変換
+	str := "123"
+	num, err := strconv.Atoi(str)
+	if err != nil {
+		fmt.Println("変換エラー:", err)
+	} else {
+		fmt.Println("変換結果:", num)
+	}
+}

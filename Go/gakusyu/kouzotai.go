@@ -25,10 +25,10 @@ fmt.Println(value)
 
 //振る舞いの定義(メソッド)
 
-type Person struct {
+//type Person struct {
 		Name string
 		Age int
 }
-func (p Person) SelfIntroduction() string {
+//func (p Person) SelfIntroduction() string {
 		return "私の名前は" + p.Name + fmt.Sprint(p.Age) + "歳です。"
 }
